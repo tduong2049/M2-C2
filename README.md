@@ -1,0 +1,2 @@
+# Summary:
+The Munchkin Marvel Combat Calculator, or M2-C2, is an Android and iOS application that will calculate a player’s combat strength against a specific villain card. Users can set up their agent profile and specify which cards they have ready for combat. The program will initially calculate their base combat strength using each card selected. Users will then select the villain they’re facing, along with the battle environment (if applicable). M2-C2 will take into account of the special effect of each card in combat before displaying the player’s final combat value.
