@@ -19,7 +19,7 @@ class _EquipmentRouteState extends State<EquipmentRoute> {
     goldValue: 400,
   );
   final headGear02 = Equipment(
-    name: "Antman's Helmet",
+    name: "Ant-Man's Helmet",
     type: "Headgear",
     bonus: 1,
     goldValue: 200,
@@ -117,7 +117,7 @@ class _EquipmentRouteState extends State<EquipmentRoute> {
     goldValue: 500,
   );
   final oneHanded07 = Equipment(
-    name: "SHIELD Pistol",
+    name: "S.H.I.E.L.D. Pistol",
     type: "One Handed",
     bonus: 1,
     goldValue: 100,
@@ -250,30 +250,32 @@ class _EquipmentRouteState extends State<EquipmentRoute> {
             ),
           ),
           Padding(
-              padding: EdgeInsetsDirectional.only(top: 40),
-            ),
+            padding: EdgeInsetsDirectional.only(top: 40),
+          ),
           RaisedButton(
-              color: Colors.red,
-              textColor: Colors.white,
-              splashColor: Colors.white,
-              child: Text(
-                "Add Allies",
-                style: TextStyle(fontSize: 18),
-              ),
-              onPressed: () {
-                widget.agent.equipment.clear();
-
-                for (Equipment item in _equipment) {
-                  if (item.isSelected) {
-                    widget.agent.equipment.add(item);
-                  }
-                }
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => AllyRoute(widget.agent)),
-                );
-              },
+            color: Colors.red,
+            textColor: Colors.white,
+            splashColor: Colors.white,
+            child: Text(
+              "Add Allies",
+              style: TextStyle(fontSize: 18),
             ),
+            onPressed: () {
+              widget.agent.equipment.clear();
+
+              for (Equipment item in _equipment) {
+                if (item.isSelected) {
+                  widget.agent.equipment.add(item);
+                }
+              }
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => AllyRoute(widget.agent),
+                ),
+              );
+            },
+          ),
         ],
       ),
     );

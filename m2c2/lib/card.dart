@@ -36,6 +36,8 @@ class Ally extends Card {
 class Power extends Card {
   int bonus;
   int rankRequirement;
+
+  Power({name, this.bonus = 0, this.rankRequirement = 1}) : super(name: name);
 }
 
 class Affiliation extends Card {
