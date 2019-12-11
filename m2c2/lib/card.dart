@@ -9,10 +9,10 @@ class Agent extends Card {
   String sex;
   int rank;
   int strength;
-  List<Equipment> equipment;
-  List<Ally> allies;
-  List<Power> powers;
-  List<Affiliation> affiliations;
+  List<Equipment> equipment = [];
+  List<Ally> allies = [];
+  List<Power> powers = [];
+  List<Affiliation> affiliations = [];
 
   Agent({name, this.sex = "M", this.rank = 1, this.strength = 0})
       : super(name: name);

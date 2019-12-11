@@ -137,7 +137,7 @@ class _AgentRouteState extends State<AgentRoute> {
               textColor: Colors.white,
               splashColor: Colors.white,
               child: Text(
-                "Add Allies",
+                "Add Equipment",
                 style: TextStyle(fontSize: 18),
               ),
               onPressed: () {
