@@ -43,5 +43,5 @@ class Power extends Card {
 class Affiliation extends Card {
   bool hasDisadvantages;
 
-  Affiliation({name, this.hasDisadvantages}) : super(name: name);
+  Affiliation({name, this.hasDisadvantages = true}) : super(name: name);
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'card.dart';
+import 'profileRoute.dart';
 
 class AffiliationRoute extends StatefulWidget {
   final Agent agent;
@@ -105,7 +106,7 @@ class _AffiliationRouteState extends State<AffiliationRoute> {
               textColor: Colors.white,
               splashColor: Colors.white,
               child: Text(
-                "Add Allies",
+                "View Profile",
                 style: TextStyle(fontSize: 18),
               ),
               onPressed: () {
