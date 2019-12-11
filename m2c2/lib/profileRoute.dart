@@ -38,7 +38,7 @@ class _ProfileRouteState extends State<ProfileRoute> {
       body: Column(
         children: <Widget>[
            Padding(
-            padding: EdgeInsetsDirectional.only(top: 20),
+            padding: EdgeInsetsDirectional.only(top: 18),
           ),
           Text("Class: ${widget.agent.name}"),
           Text("Sex: ${widget.agent.sex}"),
