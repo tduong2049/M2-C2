@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'agentScreen.dart';
+import 'agentRoute.dart';
 
 void main() {
   runApp(
@@ -9,7 +9,7 @@ void main() {
       initialRoute: '/',
       routes: {
         '/': (context) => M2C2(),
-        '/agentRoute': (context) => AgentScreen(),
+        '/agentRoute': (context) => AgentRoute(),
       },
     ),
   );
@@ -30,8 +30,8 @@ class _M2C2State extends State<M2C2> {
       ),
       body: Center(
         child: Container(
-          padding: EdgeInsets.fromLTRB(0, 160, 0, 0),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Image(
                 image: AssetImage('assets/images/marvel_logo.png'),
@@ -44,8 +44,10 @@ class _M2C2State extends State<M2C2> {
                 ),
               ),
               Padding(
-                padding: EdgeInsetsDirectional.only(top: 60),
+                padding: EdgeInsetsDirectional.only(top: 50),
               ),
+              // Button that navigates to the Agent Creation screen
+              // when pressed.
               RaisedButton(
                 color: Colors.red,
                 textColor: Colors.white,
