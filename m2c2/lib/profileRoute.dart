@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:m2c2/allyFunctions.dart';
 
 import 'card.dart';
 import 'equipmentFunctions.dart';
@@ -235,6 +236,49 @@ class _ProfileRouteState extends State<ProfileRoute> {
                   } // end switch
                 } // end for equipment
 
+                for (Ally ally in widget.agent.allies) {
+                  switch(ally.name) {
+                    case "Falcon":
+                      applyFalcon(widget.agent);
+                      break;
+                    case "Iron Man":
+                      applyIronMan(widget.agent);
+                      break;
+                    case "Hawkeye":
+                      applyHawkeye(widget.agent);
+                      break;
+                    case "Thor":
+                      applyThor(widget.agent);
+                      break;
+                    case "Captain Marvel":
+                      applyCaptainAmerica(widget.agent);
+                      break;
+                    case "Spiderman":
+                      applySpiderman(widget.agent);
+                      break;
+                    case "Black Panther":
+                      applyBlackPanther(widget.agent);
+                      break;
+                    case "Daredevil":
+                      applyDaredevil(widget.agent);
+                      break;
+                    case "Black Widow":
+                      applyBlackWidow(widget.agent);
+                      break;
+                    case "Hulk":
+                      applyHulk(widget.agent);
+                      break;
+                    case "Nick Fury":
+                      applyNickFury(widget.agent);
+                      break;
+                    case "Captain America":
+                      applyCaptainAmerica(widget.agent);
+                      break;
+                    case "Ant-Man":
+                      applyAntman(widget.agent);
+                      break;
+                  }
+                }
                 _combatStrength = widget.agent.strength.toString();
               });
             },
