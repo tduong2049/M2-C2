@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:m2c2/allyFunctions.dart';
+import 'package:m2c2/powerFunctions.dart';
 
 import 'card.dart';
 import 'equipmentFunctions.dart';
@@ -276,6 +277,56 @@ class _ProfileRouteState extends State<ProfileRoute> {
                       break;
                     case "Ant-Man":
                       applyAntman(widget.agent);
+                      break;
+                  } // end switch
+                } // end for ally
+
+                for (Power power in widget.agent.powers) {
+                  switch(power.name) {
+                    case "Master Tactician":
+                      applyMasterTactician(widget.agent);
+                      break;
+                    case "Heightened Senses":
+                      applyHeightenedSenses(widget.agent);
+                      break;
+                    case "Super-Strength":
+                      applySuperStrength(widget.agent);
+                      break;
+                    case "Martial Artist":
+                      applySuperStrength(widget.agent);
+                      break;
+                    case "Super Spy":
+                      applySuperSpy(widget.agent);
+                      break;
+                    case "Enhanced Agility":
+                      applyEnhancedAgility(widget.agent);
+                      break;
+                    case "Super Soldier":
+                      applySuperSoldier(widget.agent);
+                      break;
+                    case "Master Marksman":
+                      applyMasterMarksman(widget.agent);
+                      break;
+                    case "Size Alteration":
+                      applySizeAlteration(widget.agent);
+                      break;
+                    case "Super-Intelligence":
+                      applySuperIntelligence(widget.agent);
+                      break;
+                    case "Invulnerability":
+                      applyInvulnerability(widget.agent);
+                      break;
+                    case "Elemental Manipulation":
+                      applyElementalManiulation(widget.agent);
+                      break;
+                    case "Super Speed":
+                      applySuperSpy(widget.agent);
+                      break;
+                    case "Energy Blasts":
+                      applyEnergyBlasts(widget.agent);
+                      break;
+                    case "Supersonic Flight":
+                      applySupersonicFlight(widget.agent);
                       break;
                   }
                 }

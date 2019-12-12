@@ -1,8 +1,6 @@
 import 'package:m2c2/card.dart';
 
-void applyThorsHelmet(Agent agent) {
-  agent.strength += 3;
-}
+void applyThorsHelmet(Agent agent) => agent.strength += 3;
 
 void applyAntmansHelmet(Agent agent) {
   agent.strength += 1;
@@ -11,13 +9,9 @@ void applyAntmansHelmet(Agent agent) {
   }
 }
 
-void applyNickFurysEyepatch(Agent agent) {
-  agent.strength += 1;
-}
+void applyNickFurysEyepatch(Agent agent) => agent.strength += 1;
 
-void applyLokisHelmet(Agent agent) {
-  agent.strength += 2;
-}
+void applyLokisHelmet(Agent agent) => agent.strength += 2;
 
 void applyBlackBoltsTuningFolk(Agent agent) {
   agent.strength += 2;
@@ -35,21 +29,13 @@ void applyBlackBoltsTuningFolk(Agent agent) {
   }
 }
 
-void applyIronMansModelOneArmor(Agent agent) {
-  agent.strength += 1;
-}
+void applyIronMansModelOneArmor(Agent agent) => agent.strength += 1;
 
-void applyFalconsWingsuit(Agent agent) {
-  agent.strength += 2;
-}
+void applyFalconsWingsuit(Agent agent) => agent.strength += 2;
 
-void applyDoctorOctopusTentacleSuit(Agent agent) {
-  agent.strength += 4;
-}
+void applyDoctorOctopusTentacleSuit(Agent agent) => agent.strength += 4;
 
-void applySymbioteSuit(Agent agent) {
-  agent.strength += 2;
-}
+void applySymbioteSuit(Agent agent) => agent.strength += 2;
 
 void applySpiderManSpideySuit(Agent agent) {
   agent.strength += 2;
@@ -67,13 +53,9 @@ void applySpiderManSpideySuit(Agent agent) {
   }
 }
 
-void applyIronMansModelFiftyOneArmor(Agent agent) {
-  agent.strength += 5;
-}
+void applyIronMansModelFiftyOneArmor(Agent agent) => agent.strength += 5;
 
-void applyKravensSpear(Agent agent) {
-  agent.strength += 2;
-}
+void applyKravensSpear(Agent agent) => agent.strength += 2;
 
 void applyMjolnir(Agent agent) {
   agent.strength += 2;
@@ -91,9 +73,7 @@ void applyMjolnir(Agent agent) {
   }
 }
 
-void applyKlawsSonicBlaster(Agent agent) {
-  agent.strength += 2;
-}
+void applyKlawsSonicBlaster(Agent agent) => agent.strength += 2;
 
 void applyIronMansRepulsor(Agent agent) {
   agent.strength += 2;
@@ -117,13 +97,9 @@ void applyIronMansRepulsor(Agent agent) {
   }
 }
 
-void applyWarMachinesWristRockets(Agent agent){
-  agent.strength += 2;
-}
+void applyWarMachinesWristRockets(Agent agent)=> agent.strength += 2;
 
-void applyCaptainAmericasShield(Agent agent){
-  agent.strength += 3;
-}
+void applyCaptainAmericasShield(Agent agent)=> agent.strength += 3;
 
 void applyShieldPistol(Agent agent){
   agent.strength += 1;
@@ -133,9 +109,7 @@ void applyShieldPistol(Agent agent){
   }
 }
 
-void applyDaredevilsBillyClubs(Agent agent){
-  agent.strength += 1;
-}
+void applyDaredevilsBillyClubs(Agent agent)=> agent.strength += 1;
 
 void applyWidowsBite(Agent agent){
   agent.strength += 2;
@@ -145,9 +119,7 @@ void applyWidowsBite(Agent agent){
   }
 }
 
-void applyMandarinsRings(Agent agent){
-  agent.strength += 2;
-}
+void applyMandarinsRings(Agent agent) => agent.strength += 2;
 
 void applySpidermanWebShooters(Agent agent){
   agent.strength += 2;
@@ -165,9 +137,7 @@ void applySpidermanWebShooters(Agent agent){
   }
 }
 
-void applyAbsorbingMansBallAndChain(Agent agent){
-  agent.strength += 4;
-}
+void applyAbsorbingMansBallAndChain(Agent agent) => agent.strength += 4;
 
 void applyHawkeyesBow(Agent agent){
   agent.strength += 3;
@@ -185,14 +155,8 @@ void applyHawkeyesBow(Agent agent){
   }
 }
 
-void applyGreenGoblinsGoblinGlider(Agent agent){
-  agent.strength += 2;
-}
+void applyGreenGoblinsGoblinGlider(Agent agent) => agent.strength += 2;
 
-void applyNamorsAnkleWings(Agent agent){
-  agent.strength += 1;
-}
+void applyNamorsAnkleWings(Agent agent) => agent.strength += 1;
 
-void applySevenLeagueBoots(Agent agent){
-  agent.strength += 2;
-}
+void applySevenLeagueBoots(Agent agent) => agent.strength += 2;

@@ -88,6 +88,8 @@ class _PowerRouteState extends State<PowerRoute> {
     rankRequirement: 1,
   );
 
+  
+
   @override
   Widget build(BuildContext context) {
     List<Power> _powers = [
@@ -107,6 +109,9 @@ class _PowerRouteState extends State<PowerRoute> {
       power14,
       power15
     ];
+    
+    _powers.sort((a, b) => a.name.compareTo(b.name));
+
 
     return Scaffold(
       appBar: AppBar(
